@@ -38,10 +38,12 @@ const Workout = (props) => {
                   )
                 })}
               </div>
-            <button onClick={() => handleSets(index)} className='flex flex-col p-2 rounded border-[1.5px] duration-200 border-solid border-blue-900 hover:border-blue-600 w-full '>
-          <h3 className='text-slate-400 text-sm capitalize'>Sets completed</h3>
-          <p className='font-medium'>{setsCompleted[index] || 0}/5</p>
-        </button>
+            <button onClick={() => handleSets(index)} className='flex flex-col p-2 rounded border-[1.5px] duration-200 border-solid border-blue-900 hover:border-blue-600 w-[25%] mx-auto mt-4'>
+              <div className='flex justify-center gap-1'>
+                <h3 className='text-slate-400 font-medium capitalize '>Sets completed: </h3>
+                <p className='font-medium' >{setsCompleted[index] || 0}/5</p>
+                </div>
+            </button>
             </div>
                 </>
           )

@@ -25,7 +25,7 @@ const Generator = (props) => {
     if(muscles.length === 2) setModal(false);
 }
   return (
-    <div className="px-6 py-10">
+    <div>
       <SectionWrapper
         index={'01'}
         title="Pick your poison"

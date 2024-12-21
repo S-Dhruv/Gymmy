@@ -28,7 +28,7 @@ const Header = () => {
         {click ? (
           <button
             onClick={handleClick}
-            className="text-transparent text-4xl mt-5 bg-clip-text bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 animate-fire"
+            className="text-transparent text-4xl mt-5 bg-clip-text bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 animate-fire pl-5"
           >
             fire away 🔥
           </button>
